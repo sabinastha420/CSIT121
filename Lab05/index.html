@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSIT 121</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #55cdd1cb;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2d5b55a4;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        h2, h3 {
+            color: #1b67ca;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a:link, a:visited {
+            color: #ee0909;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #1b67ca;
+            text-decoration: underline;
+        }
+
+        #textid {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #dd4112;
+        }
+
+        .blog {
+            background-color: #f5f8f7;
+            border: 2px solid #0f7cc5;
+            margin: 1rem;
+            padding: 1rem;
+            flex: 1 1 300px;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column; 
+            padding: 1rem;
+        }
+
+        /* Media Query for Desktop */
+        @media (min-width: 600px) {
+            main {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CSIT 121</h1>
+        <nav>
+            <ul>
+                <li><a href="#module1">Module 1 & 2 Overview</a></li>
+                <li><a href="#module3">Module 3 Overview</a></li>
+                <li><a href="#module5"> Module 5 Overview</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="blog" id="module1">
+            <h2>Module 1 & 2 Overview</h2>
+            <p>Published on 9/12/2024 By Sabina Shrestha</p>
+            <p>Welcome to Sabina's another web page. After completing Module 1 and 2, I have learned a lot of new stuff, from a very basic HTML page to a more structured HTML page. I also learned many new HTML tags. It was kind of hard to remember all the new tags, but once you keep using them, it gets a lot easier to remember.</p>
+            
+            <h3>Learned Skills:</h3>
+            <ol>
+                <li>I have learned how to create a repository in GitHub and make it public.</li>
+                <li>I have learned the basic HTML structure and many new HTML tags.</li>
+            </ol>
+
+            <h3>Resources:</h3>
+            <p>Below are some of the resources that helped me learn more about the HTML tags:</p>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/html_intro.asp">W3Schools</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">MDN Web Docs</a></li>
+            </ul>
+        </article>
+
+        <article class="blog" id="module3">
+            <h2>Module 3 Overview</h2>
+            <p id="textid">Published on 9/19/2024 By Sabina Shrestha</p>
+            <p>After completing Module 3, I learned about a very important part of the web page: CSS. CSS (Cascading Style Sheets) is a stylesheet language used to style web pages. There are different ways to style web pages, and CSS helps the web page look alive and organized.</p>
+            
+            <h3>Learned Skills:</h3>
+            <ol>
+                <li>I have learned about the CSS syntax, which includes Selectors, Properties, and Values.</li>
+                <li>I have learned three ways to add CSS to HTML: Inline, Embedded, and External.</li>
+            </ol>
+
+            <h3>Resources:</h3>
+            <p>Below are some resources that helped me learn more about HTML tags and CSS:</p>
+            <ul>
+                <li><a href="https://www.w3schools.com/css/css_intro.asp">W3Schools CSS</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs CSS</a></li>
+            </ul>
+        </article>
+
+        <article class="blog" id="module5">
+            <h2>Module 5 Overview </h2>
+            <p>Published on 10/16/2024 By Sabina Shrestha</p>
+            <p>After completing Module 5, I learned about different layout html layout like flexbox and grid. 
+                I played around with CSS padding, margin and borders of the html. 
+                Also, i learned about how important the responsive design are as most of the website are now access using mobile and tables so it is necessary make it apply the needed media queries. </p>
+            
+            <h3>Learned Skills:</h3>
+            <ol>
+                <li>I have learned when to use the Flexbox or Grid.</li>
+                <li>I have learned about different media query to make the website more responsive.</li>
+                <li>I have learned how to use new property like margin, padding and others. </li>
+
+            </ol>
+
+
+            <h3>Best Design Practices:</h3>
+            <p>Some of the best website design practices are:</p>
+            <ol>
+                <li>We should make our website responsive so it can easily accessible from any devices.<li>
+                <li>We should use properly layout for the website like either Flexbox or Grid.</li>
+                <li>We should keep our design simple and clean. </li>
+
+            </ol>
+            <h3>Resources:</h3>
+            <p>Below are some resources that helped me learn more about HTML tags and CSS:</p>
+            <ul>
+                <li><a href="https://www.w3schools.com/css/css_intro.asp">W3Schools CSS</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs CSS</a></li>
+                <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS-Tricks</a></li>
+
+            </ul>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sabina Shrestha Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
