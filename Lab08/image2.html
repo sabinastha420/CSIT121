@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image 1 - JPG Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jscript.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>CSIT 121</h1>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" >Home</a>
+            <a href="image1.html">GIF Image</a>
+            <a href="image2.html" class="active">JPG Image</a>
+            <a href="image3.html">Webp Image</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>  
+    </header>
+    <br>
+    <br>
+    
+    <main>
+        <h2>Image 2 - JPG Example</h2>
+        <picture>
+            <source srcset="images/mountain.jpg" height="300" width = "300" >
+
+            <img src="images/mountain.jpg" alt="mountain" style="width:auto;">
+          </picture>
+           
+        <p>This is a JPG file type image. The image showcases one of the mountain peaks in the Himalayas. I chose this JPG image becasue i am from Nepal and it is known for having some of the tallest 
+            mountain peak in the world.<br> 
+            
+            Source: <a href="https://commons.m.wikimedia.org/wiki/File:Ama_Dablam_and_the_Himalayas,_Mountains_of_Nepal.jpg" target="_blank">Mountain</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sabina Shrestha Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>

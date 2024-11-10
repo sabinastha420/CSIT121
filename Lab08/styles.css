@@ -1,0 +1,83 @@
+/* Basic Navigation Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav {
+    background-color: #ece9e9;  /* Original navigation bar background */
+    overflow: hidden;
+    min-height: 50px;  /* Ensure the height is visible */
+}
+
+/* Styling for Navigation Links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #120101;  /* Text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Hover Effect */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Active Link */
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+/* Hide the hamburger icon initially */
+.topnav .icon {
+    display: none;
+}
+
+/* Show the hamburger icon on small screens (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    /* Hide all links except for the first one (Home) */
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    /* Display the hamburger icon */
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    /* Make the navigation links appear vertically when in "responsive" mode */
+    .topnav.responsive {
+        position: relative;
+        background-color: #333; /* Background color for dropdown */
+    }
+
+    /* Position the hamburger icon correctly when in "responsive" mode */
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    /* Display navigation links as block (stacked vertically) */
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        background-color: #f1f1f1;  /* Background color for dropdown links */
+        color: #333;  /* Text color for dropdown links */
+        padding: 12px 16px;  /* Increase padding for better click area */
+    }
+
+    /* Hover effect for the dropdown links */
+    .topnav.responsive a:hover {
+        background-color: #ddd;  /* Hover effect color */
+        color: black;
+    }
+}
