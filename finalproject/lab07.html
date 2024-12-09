@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image 1 - JPG Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header>
+        <h1>CSIT 121 Final Project</h1>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" >Home</a>
+            <a href="lab01.html">Lab 01</a>
+            <a href="lab06.html">Lab 06</a>
+            <a href="lab07.html" class="active">Lab 07</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>  
+    </header>
+    <br>
+       <br>
+        <h1>Lab 07: My Tier list & Feedback Form</h1>
+        <table aria-label="Tier list Data Table">
+            <thead>
+                <tr>
+                    <th>Tier</th>
+                    <th>Snacks</th>
+                    <th>Soda</th>
+                    <th>Fruits</th>
+                    <th>Singer</th>
+                    <th>Bag Brand</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>S</td>
+                    <td>Cheetos</td>
+                    <td>Coke</td>
+                    <td>Mango</td>
+                    <td>Taylor Swift</td>
+                    <td>Prada</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td><img src="images/pringle.png" alt="Pringles" width="50"></td>
+                    <td>Sprite</td>
+                    <td>Banana</td>
+                    <td>Salena Gomez</td>
+                    <td><img src="images/gucci.png" alt="Gucci" width="50"></td>
+                </tr>
+                <tr>
+                    <td>B</td>
+                    <td>Takis</td>
+                    <td>Orange Fanta</td>
+                    <td>Apple</td>
+                    <td>Du lipa</td>
+                    <td>Louis Vuitton</td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>Doritos</td>
+                    <td><img src="images/pepsi.jpg" alt="Pepsi" width="50"></td>
+                    <td>Orange</td>
+                    <td>Sabrina Carpenter</td>
+                    <td>Tory Burch</td>
+                </tr>
+                <tr>
+                    <td>D</td>
+                    <td>Lays</td>
+                    <td>Dr Pepper</td>
+                    <td>Grapes</td>
+                    <td>Arina Grande</td>
+                    <td>Coach</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>Feedback Form</h1>
+
+        <form>
+        
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name">
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="comments">Comments (max 1600 characters):</label>
+            <textarea id="comments" name="comments" rows="4" maxlength="1600" required></textarea>
+            <label for="rating">What is your favorite snack ?</label>
+            <select id="rating" name="rating">
+                <option value="1">Cheetos</option>
+                <option value="2">Pringles</option>
+                <option value="3">Takis</option>
+                <option value="4">Doritos</option>
+                <option value="5">Lays</option>
+            </select>
+            
+        <br><br>
+        
+        
+            <label for="date">Date:</label>
+            <Input type="date" id="date" name="date">
+        
+        
+            <button type="submit">Submit Feedback</button>
+            <button type="reset">Clear</button>
+        </form>  
+        
+        <footer>
+            <p>&copy; 2024 Sabina Shrestha Page. All rights reserved.</p>
+        </footer>
+        <script src="jscript.js"></script>
+
+    </body>
+    </html>
+    
